@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{57F10401-49B5-D954-B930-5ABAE5022968}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Script\ActionSprite.cs" />
+     <Compile Include="Assets\Script\Background.cs" />
+     <Compile Include="Assets\Script\DrawRect.cs" />
+     <Compile Include="Assets\Script\GameManager.cs" />
+     <Compile Include="Assets\Script\LevelDataAdapter.cs" />
+     <Compile Include="Assets\Script\SpriteAction.cs" />
+     <Compile Include="Assets\Script\SpriteAlertLine.cs" />
+     <Compile Include="Assets\Script\SpriteLineRender.cs" />
+     <Compile Include="Assets\Script\SpriteText.cs" />
+     <Compile Include="Assets\Script\SpriteWaveLine.cs" />
+     <Compile Include="Assets\Script\TestXML.cs" />
+     <Compile Include="Assets\Script\UIAlert.cs" />
+     <Compile Include="Assets\Script\UIPropetyPanel.cs" />
+     <Compile Include="Assets\Script\WaveSprite.cs" />
+     <None Include="Assets\level-10403.xml" />
+     <None Include="Assets\level-10610.xml" />
+     <None Include="Assets\level-11.xml" />
+     <None Include="Assets\level-104.xml" />
+     <None Include="Assets\level-10708.xml" />
+     <None Include="Assets\level-10718.xml" />
+     <None Include="Assets\level-10010.xml" />
+     <None Include="Assets\level-10312.xml" />
+     <None Include="Assets\level-10112.xml" />
+     <None Include="Assets\level-10701.xml" />
+     <None Include="Assets\level-10710.xml" />
+     <None Include="Assets\level-10311.xml" />
+     <None Include="Assets\level-10504.xml" />
+     <None Include="Assets\level-70001.xml" />
+     <None Include="Assets\level-1001.xml" />
+     <None Include="Assets\level-10408.xml" />
+     <None Include="Assets\level-10005.xml" />
+     <None Include="Assets\level-10309.xml" />
+     <None Include="Assets\level-10509.xml" />
+     <None Include="Assets\level-10315.xml" />
+     <None Include="Assets\level-10219.xml" />
+     <None Include="Assets\level-13.xml" />
+     <None Include="Assets\level-108.xml" />
+     <None Include="Assets\level-20012.xml" />
+     <None Include="Assets\level-1002.xml" />
+     <None Include="Assets\level-10305.xml" />
+     <None Include="Assets\level-30034.xml" />
+     <None Include="Assets\level-10503.xml" />
+     <None Include="Assets\level-10105.xml" />
+     <None Include="Assets\level-10715.xml" />
+     <None Include="Assets\level-10104.xml" />
+     <None Include="Assets\level-10607.xml" />
+     <None Include="Assets\level-10319.xml" />
+     <None Include="Assets\level-10211.xml" />
+     <None Include="Assets\level-10113.xml" />
+     <None Include="Assets\level-10317.xml" />
+     <None Include="Assets\level-10205.xml" />
+     <None Include="Assets\level-10206.xml" />
+     <None Include="Assets\level-10004.xml" />
+     <None Include="Assets\level-10507.xml" />
+     <None Include="Assets\level-10409.xml" />
+     <None Include="Assets\level-10601.xml" />
+     <None Include="Assets\level-10501.xml" />
+     <None Include="Assets\level-10320.xml" />
+     <None Include="Assets\level-10502.xml" />
+     <None Include="Assets\level-10405.xml" />
+     <None Include="Assets\level-10505.xml" />
+     <None Include="Assets\level-10108.xml" />
+     <None Include="Assets\level-10713.xml" />
+     <None Include="Assets\level-9001.xml" />
+     <None Include="Assets\level-10101.xml" />
+     <None Include="Assets\level-10215.xml" />
+     <None Include="Assets\level-10308.xml" />
+     <None Include="Assets\level-10109.xml" />
+     <None Include="Assets\level-102.xml" />
+     <None Include="Assets\level-10704.xml" />
+     <None Include="Assets\level-10006.xml" />
+     <None Include="Assets\level-10008.xml" />
+     <None Include="Assets\level-10212.xml" />
+     <None Include="Assets\level-10216.xml" />
+     <None Include="Assets\level-10217.xml" />
+     <None Include="Assets\level-105.xml" />
+     <None Include="Assets\level-10705.xml" />
+     <None Include="Assets\level-40004.xml" />
+     <None Include="Assets\level-10303.xml" />
+     <None Include="Assets\level-10714.xml" />
+     <None Include="Assets\level-14.xml" />
+     <None Include="Assets\level-10203.xml" />
+     <None Include="Assets\level-10116.xml" />
+     <None Include="Assets\level-10214.xml" />
+     <None Include="Assets\level-10117.xml" />
+     <None Include="Assets\level-10204.xml" />
+     <None Include="Assets\level-10510.xml" />
+     <None Include="Assets\level-10304.xml" />
+     <None Include="Assets\level-40001.xml" />
+     <None Include="Assets\level-10102.xml" />
+     <None Include="Assets\level-10001.xml" />
+     <None Include="Assets\level-10609.xml" />
+     <None Include="Assets\level-10210.xml" />
+     <None Include="Assets\level-10103.xml" />
+     <None Include="Assets\level-10413.xml" />
+     <None Include="Assets\level-101.xml" />
+     <None Include="Assets\level-10404.xml" />
+     <None Include="Assets\level-10002.xml" />
+     <None Include="Assets\level-20001.xml" />
+     <None Include="Assets\level-10506.xml" />
+     <None Include="Assets\level-10717.xml" />
+     <None Include="Assets\level-10202.xml" />
+     <None Include="Assets\level-10407.xml" />
+     <None Include="Assets\level-20200.xml" />
+     <None Include="Assets\level-10007.xml" />
+     <None Include="Assets\level-10120.xml" />
+     <None Include="Assets\level-10712.xml" />
+     <None Include="Assets\level-10110.xml" />
+     <None Include="Assets\level-10720.xml" />
+     <None Include="Assets\level-10711.xml" />
+     <None Include="Assets\level-10115.xml" />
+     <None Include="Assets\level-10508.xml" />
+     <None Include="Assets\level-10106.xml" />
+     <None Include="Assets\level-10411.xml" />
+     <None Include="Assets\level-10401.xml" />
+     <None Include="Assets\level-10316.xml" />
+     <None Include="Assets\level-10218.xml" />
+     <None Include="Assets\level-103.xml" />
+     <None Include="Assets\level-10716.xml" />
+     <None Include="Assets\level-10318.xml" />
+     <None Include="Assets\level-20011.xml" />
+     <None Include="Assets\level-10709.xml" />
+     <None Include="Assets\level-10213.xml" />
+     <None Include="Assets\level-10402.xml" />
+     <None Include="Assets\level-10009.xml" />
+     <None Include="Assets\level-10111.xml" />
+     <None Include="Assets\level-10220.xml" />
+     <None Include="Assets\level-10314.xml" />
+     <None Include="Assets\level-30033.xml" />
+     <None Include="Assets\level-10107.xml" />
+     <None Include="Assets\level-106.xml" />
+     <None Include="Assets\level-10707.xml" />
+     <None Include="Assets\level-30001.xml" />
+     <None Include="Assets\level-10119.xml" />
+     <None Include="Assets\level-10003.xml" />
+     <None Include="Assets\level-10702.xml" />
+     <None Include="Assets\level-10301.xml" />
+     <None Include="Assets\level-12.xml" />
+     <None Include="Assets\level-10703.xml" />
+     <None Include="Assets\level-10118.xml" />
+     <None Include="Assets\level-10410.xml" />
+     <None Include="Assets\level-10201.xml" />
+     <None Include="Assets\level-10302.xml" />
+     <None Include="Assets\level-10414.xml" />
+     <None Include="Assets\level-10307.xml" />
+     <None Include="Assets\level-10208.xml" />
+     <None Include="Assets\level-10207.xml" />
+     <None Include="Assets\level-10406.xml" />
+     <None Include="Assets\level-10313.xml" />
+     <None Include="Assets\level-20002.xml" />
+     <None Include="Assets\level-10114.xml" />
+     <None Include="Assets\level-10719.xml" />
+     <None Include="Assets\level-10310.xml" />
+     <None Include="Assets\level-10306.xml" />
+     <None Include="Assets\level-10412.xml" />
+     <None Include="Assets\level-107.xml" />
+     <None Include="Assets\level-10706.xml" />
+     <None Include="Assets\level-10209.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
